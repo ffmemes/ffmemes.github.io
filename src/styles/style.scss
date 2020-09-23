@@ -1,0 +1,74 @@
+@import "shared.scss";
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;700&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #9ac7ff;
+}
+
+* {
+  font-family: "Baloo Tammudu 2", cursive;
+}
+
+.app {
+  height: calc(100vh - 95px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 100px;
+
+  @media screen and (max-width: 425px) {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+.split-zone {
+  position: absolute;
+  top: 50%;
+
+  display: flex;
+  width: 100%;
+
+  @media screen and (max-width: 425px) {
+    flex-direction: column;
+  }
+}
+
+.left-side,
+.right-side {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+
+  button {
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 10px 15px 5px 15px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 425px) {
+    margin-bottom: 50px;
+  }
+}
+
+footer {
+  height: 55px;
+  padding: 15px;
+}
