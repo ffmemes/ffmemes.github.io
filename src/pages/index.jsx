@@ -12,7 +12,9 @@ const IndexPage = () => (
     <main>
       <Hero />
     </main>
-    <footer>ffmemes 2020</footer>
+    <footer>
+      ffmemes 2020 | <a href="#">About</a>
+    </footer>
   </>
 )
 
