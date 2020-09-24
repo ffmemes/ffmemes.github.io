@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="heading buttons">
         <h1 className="title">FFmemes</h1>
         <div className="sub_title">
-          <i>infnite personalized meme feed</i>
+          <i>infinite personalized meme feed</i>
         </div>
       </div>
       <div className="split-zone">
