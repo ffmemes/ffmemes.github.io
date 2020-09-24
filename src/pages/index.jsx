@@ -13,7 +13,7 @@ const IndexPage = () => (
       <Hero />
     </main>
     <footer className="text-center">
-      ffmemes 2020 | <a href="#">About</a>
+      ffmemes 2020 | <Link to="/about">About</Link>
     </footer>
   </>
 )
