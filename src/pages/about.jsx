@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 const About = () => {
   return (
     <div>
-      <SEO title="Home" />
+      <SEO title="About" />
       <main>
         <div className="about">
           <div className="mt-15 ml-15">
@@ -21,12 +21,9 @@ const About = () => {
 
           <div className="content">
             <div className="about_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              quibusdam voluptates laboriosam pariatur expedita culpa hic
-              veritatis aliquid corporis sunt? Sequi nulla cumque dolorem, vel
-              quos laborum neque quo dolorum hic, facere culpa ipsum numquam non
-              vitae, cum necessitatibus! Nostrum qui illum, adipisci placeat
-              temporibus at id amet maxime dolorum!
+              Get personalized meme feed in Facebook Messenger and Telegram chatbots.
+              
+              FFmemes shows you the memes you like based on your and other users likes and dislikes. We scrape top memes from various sources and our moderators manually filter out low quality content.
             </div>
           </div>
         </div>
