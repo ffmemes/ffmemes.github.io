@@ -8,7 +8,7 @@ import "../styles/style.scss"
 
 const IndexPage = () => (
   <>
-    <SEO title="Home" />
+    <SEO title="FFmemes" />
     <main>
       <Hero />
     </main>
