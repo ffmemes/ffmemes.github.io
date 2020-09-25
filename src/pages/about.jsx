@@ -9,7 +9,7 @@ const About = () => {
       <SEO title="Home" />
       <main>
         <div className="about">
-          <div className="mt-15">
+          <div className="mt-15 ml-15">
             <Link to="/">←Back</Link>
           </div>
           <div className="heading">

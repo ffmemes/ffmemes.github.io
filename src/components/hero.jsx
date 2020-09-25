@@ -7,7 +7,7 @@ import msgLogo from "../images/messenger.png"
 const Hero = () => {
   return (
     <div className="app">
-      <div className="heading buttons">
+      <div className="heading">
         <h1 className="title">FFmemes</h1>
         <div className="sub_title">
           <i>infinite personalized meme feed</i>

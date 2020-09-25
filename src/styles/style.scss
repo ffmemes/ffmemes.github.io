@@ -30,6 +30,7 @@ body {
 .about_text {
   max-width: 800px;
   margin: auto;
+  padding: 0 50px;
   margin-top: 50px;
   line-height: 1.2;
   font-size: 1.5rem;
@@ -42,14 +43,6 @@ body {
 }
 
 .heading {
-  &.buttons {
-    position: absolute;
-    top: 100px;
-
-    .title {
-      line-height: 0.8;
-    }
-  }
   text-align: center;
   width: 100%;
 
@@ -58,10 +51,10 @@ body {
     // line-height: 0.8;
     font-weight: 900;
     margin: 0;
+    margin-top: 20px;
 
     @media screen and (max-width: 425px) {
       font-size: 3rem;
-      line-height: 1;
     }
   }
 
@@ -70,6 +63,10 @@ body {
     font-size: 1.8rem;
     line-height: 1;
     color: rgb(59, 59, 59);
+
+    @media screen and (max-width: 425px) {
+      margin-top: -20px;
+    }
   }
 }
 
@@ -93,6 +90,8 @@ body {
   justify-content: center;
 
   .app-logo {
+    min-width: 50px;
+    min-height: 50px;
     width: 50px;
     height: 50px;
     margin-top: -10px;
