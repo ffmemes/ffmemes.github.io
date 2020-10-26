@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{pssB:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),o=n.n(a),s=n("dmsj");t.default=function(){return o.a.createElement(o.a.Fragment,null,o.a.createElement(s.a,{title:"404: Not found"}),o.a.createElement("h1",null,"404: Not Found"),o.a.createElement("p",null,"You just hit a route that doesn't exist... the sadness. Maybe you tried to find our Telegram bot: https://t.me/ffmemesbot/"))}}}]);
+//# sourceMappingURL=component---src-pages-404-jsx-63341e770afae6e5a9c7.js.map
